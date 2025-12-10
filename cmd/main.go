@@ -8,6 +8,7 @@ func main() {
 	//p.Gamemode()
 	//p.Definition()
 	//p.Swithes()
-	p.Arrays()
-	p.Slices()
+	//p.Arrays()
+	//p.Slices()
+	p.Inter()
 }
