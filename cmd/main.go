@@ -10,5 +10,6 @@ func main() {
 	//p.Swithes()
 	//p.Arrays()
 	//p.Slices()
-	p.Inter()
+	//p.Inter()
+	p.Mapss()
 }

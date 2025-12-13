@@ -2,9 +2,6 @@ package p
 
 import "fmt"
 
-type Animal interface {
-	makeSound()
-}
 type Greeter interface {
 	greet(string) string
 }
@@ -21,6 +18,9 @@ func SayHello(g Greeter, name string) {
 	fmt.Println(g.greet(name))
 }
 
+type Animal interface {
+	makeSound()
+}
 type cat struct{}
 type dog struct{}
 
